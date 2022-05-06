@@ -85,7 +85,7 @@ void loop() {
     if (servoActive){
       sweepServo();
     } else {
-      delay(2000);
+      delay(4000);
     }
     secondsPassed++;
   } while(secondsPassed<stopDelay);
